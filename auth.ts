@@ -1,5 +1,5 @@
 import NextAuth from "next-auth";
 
-export const { auth } = NextAuth({
+export const { auth, handlers: { GET, POST } } = NextAuth({
     providers: []
 });
